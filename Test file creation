@@ -1,1 +1,79 @@
-This is the beginning of the end
+Process:	Asset Derecognition				
+					
+					
+Step 1 :	Select the Asset which needs to be derecognised, right click and select the "Derecognition Input Form" option				
+Step 2 :	Populate the Disposal Method and Date of De-recognition fields (marked in red below)				
+	The depreciation YTD; de-recognition cost and de-recognition accumulated depreciation are automatically calculated based on date of de-recognition selected				
+Step 3 :	The User clicks 'Submit'				
+	Create Derecognition Input Form and set state to State_ID 2, also refered to as Form_Level 1				
+Step 4:	The User clicks 'Commit'				
+	Derecognition Input Form is set to State_ID = 6, also refered to as Form_Level 3				
+	Push to SAP and Commit to FAR				
+					
+IMQS Field Name:	Work In Progress Register:	SAP Field Name:	XSD Name	Sample Values	Url for the messages/ schema 
+Component ID		n/a	n/a	INF_WWTW_BAL1_RDFN_BLBD	
+Additional Asset ID		Main Asset Number	mainAssetNo	120670001	
+Moveable/ Immovable		n/a	n/a	Immoveable	
+Acc. Group		n/a	n/a	Property, Plant, Equipment	
+Asset Category		n/a	n/a	Infrastructure	
+Asset Sub Category		n/a	n/a	WWTW	
+Asset Group Type		n/a	n/a	Balancing Tank	
+Asset Type		n/a	n/a	Road Furniture	
+Component Type		n/a	n/a	Billboards	
+Asset Group Name		n/a	n/a	Test Project	
+Descriptor: General		n/a	n/a	test_comp1	
+Extent		n/a	n/a	10	
+Extent Unit		n/a	n/a	EA	
+Ward		n/a	n/a	0	
+Take-On Date		n/a	n/a	2013-11-15	
+Related work-in-progress		n/a	n/a	TestProject001	
+Fair value FY end		n/a	n/a	0	
+Cost price		n/a	n/a	0	
+Carrying value  - closing		n/a	n/a	0	
+Insurance Cover		n/a	n/a	0	
+Debt Security Applicable		n/a	n/a	FALSE	
+Year initially constructed		n/a	n/a	2013	
+Year Last Renewed		n/a	n/a	0	
+Additions - Fin YTD		n/a	n/a	25000	
+Policy EUL		n/a	n/a	15	
+Adjusted EUL		n/a	n/a	0	
+RUL (from  beginning of period)		n/a	n/a	15	
+Residual Value (% Cost Price)		n/a	n/a	0	
+Depreciation Method		n/a	n/a	Straight Line over specified Useful Life	
+Accumulated Depreciation - opening balan		n/a	n/a	0	
+Depreciation - Financial YTD		n/a	n/a	0	
+Accumulated Depreciation - closing balan		n/a	n/a	0	
+Disposal Method		n/a	n/a	Lost	
+Disposal Profit/Loss		n/a	n/a	-25000	
+Date of De-Recognition		Document Date	documentDate	2013-11-22	
+De-recognition - cost		n/a	n/a	-25000	
+Derecognition - Accumulated depreciation		n/a	n/a	0	
+Impairment Fin YTD		n/a	n/a	0	
+Reversal of Impairment  Fin YTD		n/a	n/a	0	
+Revalued amount at last revaluation		n/a	n/a	0	
+Change in Value Financial YTD		n/a	n/a	0	
+RUL on valuation date		n/a	n/a	0	
+Criticality		n/a	n/a	0	
+Condition		n/a	n/a	0	
+Performance		n/a	n/a	0	
+Utilisation		n/a	n/a	0	
+Cost of Operation		n/a	n/a	0	
+Risk Exposure		n/a	n/a	0	
+Forecast Replacement Year		n/a	n/a	2029	
+Actual budget allocated (% need)		n/a	n/a	0	
+Maintenance Expenditure		n/a	n/a	0	
+Impairment since take-on previous years		n/a	n/a	0	
+Reversal of impairment since take-on in		n/a	n/a	0	
+Asset Barcode Nr		n/a	n/a	120670001	
+Room Barcode Nr		n/a	n/a	1206700	
+Serial/ Reg. No		n/a	n/a	comp1	
+Fleet Number		n/a	n/a		
+Regist. Year		n/a	n/a	0	
+Last Verification Date		n/a	n/a	1899/12/30	
+BatchID		ZZBATCH_ID	transmissionID	88	
+Default Value, populated by script		Company Code	companyCode	JW01	
+n/a		SubAssetNo	subAssetNo	Not Required	
+same as Date of De-Recognition		Posting date	postingDate	Same As documentDate	
+same as Date of De-Recognition		Value date	assetValueDate	Same As documentDate	
+					
+
